@@ -18,6 +18,6 @@ class Solution:
         return anagram_map.values()
     
 
-strs = ["eat","tea","tan","ate","nat","bat"]
+strs = ["eat","tea","tan","ate","nat","bat","mat","tam"]
 
 print(Solution().groupAnagrams(strs))
