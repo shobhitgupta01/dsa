@@ -17,7 +17,8 @@ class Solution:
 
         if s1 == s2:
             return True
-        
+
+        # making key as concat of the two strings
         key = s1+s2
         if key in Solution.mp:
             return Solution.mp[key]
