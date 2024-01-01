@@ -20,11 +20,11 @@ class Solution:
             
             left = dfs(node.left)
             right = dfs(node.right)
-
+            # case if node may not be root of the path
             temp = max(node.val, node.val + max(left, right))
-
+            # case if node may be the root of the path
             ans = max(temp, node.val + left + right)
-
+            # storing the max path sum
             res = max(res, ans)
 
             return temp
