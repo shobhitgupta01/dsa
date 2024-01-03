@@ -13,7 +13,7 @@
 class Solution:
     
     #Function to find minimum number of attempts needed in 
-    #order to find the critical floor.
+    #order to find the critical floor
     def eggDrop(self,n, k):
         # code here
         
