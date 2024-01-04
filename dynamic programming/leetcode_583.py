@@ -19,4 +19,5 @@ class Solution:
         return m + n - (2*t[m][n])
     
 
+# example running the function
 print(Solution().minDistance('star', 'target'))
