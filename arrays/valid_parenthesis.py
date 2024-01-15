@@ -1,4 +1,4 @@
-# Leetcode 30
+# Leetcode 20
 # Given a string containing parenthesis, find if they are valid
 class Solution:
     def isValid(self, s: str) -> bool:
